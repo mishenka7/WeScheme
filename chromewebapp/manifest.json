@@ -1,0 +1,19 @@
+{
+  "name": "Wescheme test app",
+  "description": "WeScheme to learn math through programming",
+  "version": "0.0.0.2",
+  "manifest_version": 3,
+  "container" : "GOOGLE_DRIVE",
+  "api_console_project_id" : "1036545559140",
+  "icons": {
+    "128": "icon-128.png"
+  },
+  "app": {
+    "urls": [
+      "http://wescheme-ml.appspot.com/"
+    ],
+    "launch": {
+      "web_url": "http://wescheme-ml.appspot.com/splash"
+    }
+  }
+}

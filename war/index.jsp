@@ -15,8 +15,8 @@ UserService us = UserServiceFactory.getUserService();
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html>
 <head><title>WeScheme</title>
-
-
+<!--  mishal remove! -->
+<meta name="google-site-verification" content="vezA5rs7QdxDr5jGkDl24Zm2sNDlH-k5xNxT865ZMjE" /> 
 <!-- Google analytics support -->
 <jsp:include page="/google-analytics.jsp"/>
 

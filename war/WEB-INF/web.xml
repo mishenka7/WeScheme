@@ -29,6 +29,7 @@
 
   <!-- RemoteAPI: used for bulk data load -->
   <!-- http://code.google.com/appengine/docs/python/tools/uploadingdata.html -->
+ 
   <servlet>
     <servlet-name>RemoteApi</servlet-name>
     <servlet-class>com.google.apphosting.utils.remoteapi.RemoteApiServlet</servlet-class>
@@ -287,8 +288,50 @@
     <url-pattern>/imageProxy</url-pattern>
   </servlet-mapping>
 
+ 
+  <!-- Drive actions -->
 
-
-
-
+  <servlet>
+    <servlet-name>StartPageServlet</servlet-name>
+    <servlet-class>org.wescheme.drive.StartPageServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>StartPageServlet</servlet-name>
+    <url-pattern>/</url-pattern>
+  </servlet-mapping>
+  
+  
+  
+  <servlet>
+    <servlet-name>FileServlet</servlet-name>
+    <servlet-class>org.wescheme.drive.FileServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>FileServlet</servlet-name>
+    <url-pattern>/svc</url-pattern>
+  </servlet-mapping>
+  
+  
+  
+  <servlet>
+    <servlet-name>UserServlet</servlet-name>
+    <servlet-class>org.wescheme.drive.UserServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>UserServlet</servlet-name>
+    <url-pattern>/user</url-pattern>
+  </servlet-mapping>
+  
+  
+  
+  <servlet>
+    <servlet-name>AboutServlet</servlet-name>
+    <servlet-class>org.wescheme.drive.AboutServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>AboutServlet</servlet-name>
+    <url-pattern>/about</url-pattern>
+  </servlet-mapping>
+  
+ 
 </web-app>

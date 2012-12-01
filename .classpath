@@ -30,9 +30,6 @@
 	<classpathentry kind="lib" path="/Users/mishal/WeScheme/lib/lib/appengine-api-labs-1.6.3.jar"/>
 	<classpathentry kind="lib" path="/Users/mishal/WeScheme/lib/lib/appengine-jsr107cache-1.6.3.jar"/>
 	<classpathentry kind="lib" path="/Users/mishal/WeScheme/lib/lib/commons-logging-1.1.1.jar"/>
-	<classpathentry kind="lib" path="/Users/mishal/WeScheme/lib/lib/datanucleus-appengine-1.0.10.final.jar"/>
-	<classpathentry kind="lib" path="/Users/mishal/WeScheme/lib/lib/datanucleus-core-1.1.5.jar"/>
-	<classpathentry kind="lib" path="/Users/mishal/WeScheme/lib/lib/datanucleus-jpa-1.1.5.jar"/>
 	<classpathentry kind="lib" path="/Users/mishal/WeScheme/lib/lib/geronimo-jpa_3.0_spec-1.1.1.jar"/>
 	<classpathentry kind="lib" path="/Users/mishal/WeScheme/lib/lib/geronimo-jta_1.1_spec-1.1.1.jar"/>
 	<classpathentry kind="lib" path="/Users/mishal/WeScheme/lib/lib/google-api-client-1.10.3-beta.jar"/>

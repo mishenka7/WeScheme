@@ -4,5 +4,5 @@ gaeDeployDialogSettings=
 gaeIsEclipseDefaultInstPath=true
 googleCloudSqlEnabled=false
 localDevMySqlEnabled=true
-ormEnhancementInclusions=src/
+ormEnhancementInclusions=src/org/wescheme/project
 validationExclusions=

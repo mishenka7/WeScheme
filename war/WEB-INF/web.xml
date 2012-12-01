@@ -288,6 +288,18 @@
     <url-pattern>/imageProxy</url-pattern>
   </servlet-mapping>
 
+  
+  <servlet>
+    <servlet-name>splash</servlet-name>
+    <servlet-class>org.wescheme.servlet.SplashServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>splash</servlet-name>
+    <url-pattern>/splash</url-pattern>
+  </servlet-mapping>
+
+  
+    
  
   <!-- Drive actions -->
 
